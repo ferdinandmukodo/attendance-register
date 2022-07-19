@@ -18,11 +18,7 @@ function search()
     {
 
 const searchInput = document.getElementById("searchbar");
-
-// store name elements in array-like object
 const namesFromDOM = document.getElementsByClassName("student");
-
-// listen for user events
 searchInput.addEventListener("keyup", (event) => {
     const { value } = event.target;
     
