@@ -23,3 +23,15 @@
     border: 5px;
     box-shadow: 5px;
 }
+input.largerCheckbox {
+    transform : scale(10);
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    
+}
+button:hover{
+    color: red
+}
