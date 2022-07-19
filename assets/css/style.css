@@ -1,0 +1,32 @@
+nav{background-color: white;
+    color: rgb(17, 17, 63);
+    font-weight: bold;
+    font-size: larger;
+    padding: 1%;
+    border: solid rgb(243, 238, 238);
+    display: flex;
+    margin: 3%;
+    justify-content: space-between;
+    position: static;
+}
+.image{float: right;
+        margin-right: 30%;}
+.data{float: left;
+    margin-left: 30%;}
+button{border: 0;
+        color: white;
+        background-color:rgb(17, 17, 48);  
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 72%;}
+label{display: block;
+    width: 100%;
+    padding: 1rem 0 .25rem;
+    font-size: 14px;
+    border-radius: 5px;}
+body{
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0px;
+    font-size: 14px;}
