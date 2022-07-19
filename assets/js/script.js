@@ -43,3 +43,14 @@ const students= [
 
     }
     document.getElementById("btn").addEventListener("click", displayForm);
+
+    function myCreateFunction() {
+        var table = document.getElementById("rows");
+        var row = table.insertRow(0);
+        var cell1 = row.insertCell(1);
+        var cell2 = row.insertCell(2);
+        var cell2 = row.insertCell(3);
+        var cell2 = row.insertCell(4);
+        cell1.innerHTML = "NEW CELL1";
+        cell2.innerHTML = "NEW CELL2";
+      }

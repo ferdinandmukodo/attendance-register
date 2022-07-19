@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .table{
     border-collapse: collapse;
     width:100%;
@@ -57,3 +58,42 @@ input,select{
     margin-top: 10px;
 }
 
+=======
+#formdiv{
+    width: 50%;
+    /* justify-content: center;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+ 
+
+}
+
+.formspan{
+    color: red;
+}
+
+
+.formdivs{
+    background-color: blanchedalmond;
+    border: 5px;
+    box-shadow: 5px;
+}
+input.largerCheckbox {
+    transform : scale(10);
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    
+}
+button:hover{
+    color: red
+}
+>>>>>>> 2dd0c183da0ba498b75f0d019f32f61ff0ddd859
