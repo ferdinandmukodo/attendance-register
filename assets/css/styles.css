@@ -43,3 +43,10 @@ button:hover{
     margin-top: auto;
     text-align: center;
 }
+
+body {
+    background-color: burlywood;
+    font-family: fantasy;
+    font-size: medium;
+    
+}

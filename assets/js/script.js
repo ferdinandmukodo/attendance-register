@@ -11,10 +11,10 @@ function myFunction() {
 }
 
 
-function myFunctiona() {
-    var check = document.getElementsByName("")
-}
+// function myFunctiona() {
+//     var check = document.getElementsByName("")
+// }
 
-function myFunction() {
-    let =
-}
+// function myFunction() {
+//     let =
+// }
