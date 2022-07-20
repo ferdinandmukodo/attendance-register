@@ -94,3 +94,14 @@ button{
 button:hover{
     color: red
 }
+<<<<<<< HEAD
+=======
+
+.studentlist{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+}
+>>>>>>> b30ac89589e352cf226ecf2b8cce91ffaa1d1f93

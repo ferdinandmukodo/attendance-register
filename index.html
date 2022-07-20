@@ -26,7 +26,7 @@
         </div>  
     </nav>
 
-    <div id="formdiv"">
+    <div id="formdiv">
         <div>
             <h3>STUDENTS ATTENDANCE LIST</h3>
             <p><span class="formspan">Please do not check box if student is absent!</span></p>
@@ -61,8 +61,61 @@
                     <button type="submit" id="submit" name="Submit">Submit</button>
                     <button type="reset" name="reset" id="reset">Reset</button>
             </form>
+            <p><span class=" formspan">Please do not check box if student is absent!</span></p>
+    </div> -->
+    <div id="">
+        <form>
+            <div class="formsubdiv">
+                <input type="checkbox" id="myCheck" name="checkbox" onclick="myFunction()">
+                <label>Isaac Sindiga</label>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" id="myChecka" name="checkbox" onclick="myFunctiona()">
+                <label>Mary Wairimu</label>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" id="myCheckb" name="checkbox" value="#">
+                <label>Audrey Cheng</label>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" id="myCheckc" name="checkbox" value="#">
+                <label>Janet Oloo</label>
+            </div>
+            <hr>
+            <div>
+                <input type="checkbox" id="myCheckd" name="checkbox" value="#">
+                <label>Albert Kimathi</label>
+            </div>
+            <hr>
+            <button type="submit" id="submit" name="Submit" onclick="">Submit</button>
+            <button type="reset" name="reset" id="reset">Reset</button>
+        </form>
+    </div>
+    </div>
+    <div class="studentlist">
+        <div>
+            <p id="text" style="display:none">Isaac Sindiga Is Present!</p>
+            <p id="texta" style="display:none">Mary Wairimu Is Present!</p>
+            <p id="textb" style="display:none">Audrey Cheng Is Present!</p>
+            <p id="textc" style="display:none">Janet Oloo Is Present!</p>
+            <p id="textd" style="display:none">Albert Kimathi Is Present!</p>
         </div>
     </div>
+    <!-- <script>
+        function myFunction() {
+            var checkBox = document.getElementById("myCheck");
+            var text = document.getElementById("text");
+            if (checkBox.checked == true) {
+                text.style.display = "block";
+            } else {
+                text.style.display = "none";
+            }
+        }
+    </script> -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
