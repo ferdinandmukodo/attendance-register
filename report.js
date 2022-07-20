@@ -30,7 +30,18 @@ searchInput.addEventListener("keyup", (event) => {
             nameElement.style.display = "block";
         } else {
             nameElement.style.display = "none";
+            
         }
     }
 });
+}
+//create function that displays output of a checkbox
+function checkbox(){
+    let checkbox=document.getElementById("checkbox");
+    if(checkbox.checked){
+        document.getElementById("rows").style.display="none";
+    }
+    else{
+        document.getElementById("rows").style.display="block";
+    }
 }
