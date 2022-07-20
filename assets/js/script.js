@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const students= [
     {   rollNo: "0001",
         name: "Mary Mbugua",
@@ -55,10 +54,8 @@ const students= [
         cell1.innerHTML = "NEW CELL1";
         cell2.innerHTML = "NEW CELL2";
       }
-=======
 const btn=document.getElementById("log_In")
 btn.addEventListener("click",(event)=>{
     event.preventDefault()
 let inputA=document.getElementById("Admin_email").value
 let inputB=document.getElementById("Password").value})
->>>>>>> a6d6e9cf2f5b9a1f19ec7268b07c2f1356ff3cc0
