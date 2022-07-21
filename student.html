@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Students Register</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/student.css">
     </head>
     <body>
 
@@ -15,6 +15,10 @@
             <div>
             <img src="./assets/html/Moringa Home.png" height="70" width="70">
             </div>
+            <div>
+            <a href="./index.html" target="_self">Log Out</a>
+            </div>
+    
             <div>
             <a href="./index.html" target="_self">Home</a>
             </div>
@@ -37,6 +41,7 @@
                 <tr>
                 <th>Roll No</th>
                 <th>Name</th>
+                <th>Laptop Name</th>
                 <th>Laptop Serial No</th>
                 <th>Class</th>
                 <th>Section</th>
@@ -46,22 +51,22 @@
                 </tbody>
             </table>
             <div class ="button">
-            <button id="btn">Add Student</button>
+            <button onclick="displayForm()">Add Student</button>
             </div>
         
         <div class ="reg">
         <form  id="createstudents">
             <label>Student Name</label>
-            <input type="text" name="Student Name">
+            <input type="text" id ="sname" name="Student Name">
             
             <label>Student No</label>
-            <input type="text" name="Student No">
+            <input type="text"  id ="sno" name="Student No">
             
-            <label>Student No</label>
-            <input type="text" name="Laptop Name">
+            <label>Laptop Model</label>
+            <input type="text" id ="model" name="Laptop Name">
             
             <label>Serial No</label>
-            <input type="text" name="Serial No">
+            <input type="text" name="Serial No" id="serialno">
         
             <label for="class">Choose class:</label>
            <select name="class" id="class">
@@ -83,7 +88,7 @@
     
     
         
-            <script src="assets/js/script.js"></script>
+            <script src="assets/js/student.js"></script>
        
         
     </body>
