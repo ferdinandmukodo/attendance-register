@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@500;700&display=swap');
-nav{background-color: gray;
+/* nav{background-color: gray;
     color:white;
     font-weight: bold;
     font-size: larger;
@@ -7,7 +7,7 @@ nav{background-color: gray;
     border: solid rgb(243, 238, 238);
     display: flex;
     justify-content: space-between;
-}
+} */
 .image{float: right;
         margin-right: 30%;}
 .data{float: left;
@@ -29,5 +29,23 @@ label{display: block;
     border-radius: 5px;}
 body{
     font-family: 'poppins';
-    background-color:rgb(181, 175, 175);
+    /* background-color:rgb(181, 175, 175); */
     margin: 0px;}
+
+    nav{
+        background-color: rgb(175, 180, 175);
+        color:white;
+        font-weight: bold;
+        font-size: larger;
+        padding: 1%;
+        border: solid rgb(243, 238, 238);
+        display: flex;
+        /* margin: 3%; */
+        justify-content: space-between;
+        position: static;
+        align-items: center;
+    
+    }   
+    a:hover{
+        color: brown;
+    }    

@@ -58,20 +58,32 @@ input,select{
     margin-top: 10px;
 }
 
-nav{background-color: grey;
+nav{
+    background-color: grey;
     color:white;
     font-weight: bold;
     font-size: larger;
     padding: 1%;
     border: solid rgb(243, 238, 238);
     display: flex;
-    margin: 3%;
+    /* margin: 3%; */
     justify-content: space-between;
     position: static;
+    align-items: center;
+
 }
+
 @media screen and (max-width: 760px) {
     .milkProduce{
         display: flex;
         flex-direction: column;
     }
+}
+
+a:hover{
+    color: brown;
+}
+
+button:hover{
+    color: rgb(110, 86, 154);
 }
