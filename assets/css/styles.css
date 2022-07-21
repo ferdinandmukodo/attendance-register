@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@500;700&display=swap');
-=======
->>>>>>> 51f14a1c10d273e2ec692b624dc36a4c55e1825f
 
 
 #formdiv{
@@ -41,8 +38,7 @@ button{
 button:hover{
     color: red
 }
-<<<<<<< HEAD
-=======
+
 
 .studentlist{
     display: block;
@@ -51,19 +47,8 @@ button:hover{
     margin-top: auto;
     text-align: center;
 }
-<<<<<<< HEAD
->>>>>>> b30ac89589e352cf226ecf2b8cce91ffaa1d1f93
-=======
 
-body {
-<<<<<<< HEAD
-    background-color: burlywood;
-    font-family: fantasy;
-    font-size: medium;
-    
-}
->>>>>>> 88db897926ee4e80fc8dd1ecde601a2acf950cf5
-=======
+body{
     font-family: 'poppins';
 }
->>>>>>> c1dd77b035f9e1d4e328253e21323a888b8296b7
+
