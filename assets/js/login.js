@@ -1,14 +1,11 @@
-<<<<<<< HEAD
+
 // const btn=document.getElementById("log_In")
 // btn.addEventListener("click",(event)=>{
 //     event.preventDefault()
 // let inputA=document.getElementById("Admin_email").value
 // let inputB=document.getElementById("Password").value})
-=======
 
 
-
-<<<<<<< HEAD
   const students = [
     {
       rollNo: "0001",
@@ -91,8 +88,6 @@ function myCreateFunction() {
   document.getElementById("btnsubmit").addEventListener("click", myCreateFunction);
 }
      // myCreateFunction
-=======
-    ];
     
     var table = document.getElementById("rows");
     table.innerHTML = "";
@@ -113,10 +108,10 @@ function myCreateFunction() {
     document.getElementById("createstudents").style.display="none";
      function displayForm(){
        document.getElementById("createstudents").style.display="block";
->>>>>>> bc769546e64b6a6de0ad54ca42e7779bc1f7f993
 
 
-<<<<<<< HEAD
+
+
 // function myFunction() {
 //     var checkBox = document.getElementById("myCheck");
 //     var text = document.getElementById("text");
@@ -136,7 +131,7 @@ function myCreateFunction() {
 //     let =
 // }
 let inputB=document.getElementById("Password").value[]
-=======
+
     function myCreateFunction() {
         var table = document.getElementById("rows");
         var row = table.insertRow(0);
@@ -147,15 +142,18 @@ let inputB=document.getElementById("Password").value[]
         cell1.innerHTML = "NEW CELL1";
         cell2.innerHTML = "NEW CELL2";
       }
-=======
->>>>>>> 51f14a1c10d273e2ec692b624dc36a4c55e1825f
+
 const btn=document.getElementById("log_In")
 btn.addEventListener("click",(event)=>{
     event.preventDefault()
 let inputA=document.getElementById("Admin_email").value
 let inputB=document.getElementById("Password").value})
-<<<<<<< HEAD
->>>>>>> 778cd33b6515830c8ce92d58429f2666131620ea
->>>>>>> bc769546e64b6a6de0ad54ca42e7779bc1f7f993
-=======
->>>>>>> 51f14a1c10d273e2ec692b624dc36a4c55e1825f
+
+
+
+ function hashPassword(){
+    let salt=bcrypt.genSaltSync(10);
+    let hash=bcrypt.hashSync(password,salt)
+    return hash;
+
+ }
