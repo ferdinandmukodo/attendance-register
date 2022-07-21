@@ -154,8 +154,19 @@ btn.addEventListener("click",(event)=>{
     event.preventDefault()
 let inputA=document.getElementById("Admin_email").value
 let inputB=document.getElementById("Password").value})
+<<<<<<< HEAD:assets/js/script.js
 <<<<<<< HEAD
 >>>>>>> 778cd33b6515830c8ce92d58429f2666131620ea
 >>>>>>> bc769546e64b6a6de0ad54ca42e7779bc1f7f993
 =======
 >>>>>>> 51f14a1c10d273e2ec692b624dc36a4c55e1825f
+=======
+
+
+ function hashPassword(){
+    let salt=bcrypt.genSaltSync(10);
+    let hash=bcrypt.hashSync(password,salt)
+    return hash;
+
+ }
+>>>>>>> a8d115221f991406157a7422b7c96e50889d9f25:assets/js/login.js
