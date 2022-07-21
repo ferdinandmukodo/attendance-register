@@ -177,3 +177,10 @@ nav{background-color: grey;
     justify-content: space-between;
     position: static;
 }
+
+@media screen and (max-width: 760px) {
+    .milkProduce{
+        display: flex;
+        flex-direction: column;
+    }
+}
