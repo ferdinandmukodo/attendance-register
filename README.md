@@ -25,11 +25,12 @@ Attendance register is a project that allows the teacher or admin to key in stud
 *None at this point
 
 # technologies used
-HTML- Structure of the system
-CSS- Styling
-JavaScript- Functionality
-JQuery
-ScreenCastify
+<ul>
+  <li>HTML- Structure of the system</li>
+  <li>CSS- Styling</li>
+  <li>JavaScript- Functionality</li>
+  <li>JQuery</li>
+  <li>ScreenCastify</li>
 
 ### Behaviour Driven Development
 
